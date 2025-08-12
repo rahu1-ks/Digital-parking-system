@@ -16,13 +16,13 @@ The login page is **non-functional** and serves as a placeholder for future deve
 - Unpark a vehicle using its ticket ID.
 - Calculate the total fee for vehicles based on type and duration of stay.
 
-### Billing Rules
-| Vehicle Type | Rate per Hour |
-|--------------|--------------|
-| BIKE         | ₹10/hour     |
-| CAR          | ₹20/hour     |
-| TRUCK        | ₹30/hour     |
-- **Minimum billing:** 1 hour (even if parked for less)
+  ### Billing Rules
+  | Vehicle Type | Rate per Hour |
+  |--------------|--------------|
+  | BIKE         | ₹10/hour     |
+  | CAR          | ₹20/hour     |
+  | TRUCK        | ₹30/hour     |
+  - **Minimum billing:** 1 hour (even if parked for less)
  
 - View the history of all vehicles that have been parked.
 - Frontend integration using HTML, CSS, and JavaScript for smooth interaction.
