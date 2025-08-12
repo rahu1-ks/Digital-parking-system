@@ -3,7 +3,7 @@
 This is a **Spring Boot-based Parking Management System** project.  
 The focus of the project is on **vehicle parking and unparking functionalities**, with records stored in a database for future reference. 
 It manages vehicle parking across multiple floors.
-It provides REST APIs to park, unpark, and calculate total fee for vehicles based on type and duration of stay.
+It provides REST APIs to park and unpark, and calculate total fee for vehicles based on type and duration of stay.
 The login page is **non-functional** and serves as a placeholder for future development.  
 
 **Note:** The company name used in this project, *NuCompany*, is **imaginary** and used only for demonstration purposes.
