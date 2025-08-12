@@ -35,42 +35,42 @@ The login page is **non-functional** and serves as a placeholder for future deve
 ### Login Page (Non-functional placeholder)
 *The login page is for demonstration only and is not connected to any authentication system.*
 
-<img src="reademe-images/Screenshot 1.png" alt="Login Page" width="600">
+<img src="readme-images/Screenshot 1.png" alt="Login Page" width="600">
 
 ---
 
 ### Park Page
 *Default landing page after login where users can park their vehicles.*
 
-<img src="reademe-images/Screenshot 2.png" alt="Park Page" width="600">
+<img src="readme-images/Screenshot 2.png" alt="Park Page" width="600">
 
 ---
 
 ### Park Page Alert
 *Alert shown when a vehicle is successfully parked.*
 
-<img src="reademe-images/Screenshot 3.png" alt="Park Page Alert" width="600">
+<img src="readme-images/Screenshot 3.png" alt="Park Page Alert" width="600">
 
 ---
 
 ### Unpark Page
 *Page to unpark vehicles using their ticket ID.*
 
-<img src="reademe-images/Screenshot 4.png" alt="Unpark Page" width="600">
+<img src="readme-images/Screenshot 4.png" alt="Unpark Page" width="600">
 
 ---
 
 ### Unpark Page Alert
 *Alert shown when a vehicle is successfully unparked.*
 
-<img src="reademe-images/Screenshot 5.png" alt="Unpark Page Alert" width="600">
+<img src="readme-images/Screenshot 5.png" alt="Unpark Page Alert" width="600">
 
 ---
 
 ### Vehicle Parking History
 *A record of all vehicles parked, stored in the database.*
 
-<img src="reademe-images/Screenshot 6.png" alt="Parking History" width="600">
+<img src="readme-images/Screenshot 6.png" alt="Parking History" width="600">
 
 ---
 
