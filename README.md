@@ -1,4 +1,4 @@
-# Parking Management System
+# Digital Parking System
 
 This is a **Spring Boot-based Parking Management System** project.  
 The focus of the project is on **vehicle parking and unparking functionalities**, with records stored in a database for future reference. 
@@ -22,7 +22,7 @@ The login page is **non-functional** and serves as a placeholder for future deve
   | BIKE         | ₹10/hour     |
   | CAR          | ₹20/hour     |
   | TRUCK        | ₹30/hour     |
-  - **Minimum billing:** 1 hour (even if parked for less)
+- **Minimum billing:** 1 hour (even if parked for less)
  
 - View the history of all vehicles that have been parked.
 - Frontend integration using HTML, CSS, and JavaScript for smooth interaction.
