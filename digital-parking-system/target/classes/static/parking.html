@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parking System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <img src="./assets/images/logo.png" alt="Logo">
+    <ul class="nav-links">
+        <li><a href="index.html">Login</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<!-- Content -->
+<div class="container">
+    <h1>Parking Management</h1>
+
+    <div id="parkFormContainer">
+        <h2>Park a Vehicle</h2>
+        <form id="parkForm">
+            <input type="text" id="vehicleNumber" placeholder="Vehicle Number" required>
+            <select id="vehicleType" required>
+                <option value="">Select Vehicle Type</option>
+                <option value="CAR">Car</option>
+                <option value="BIKE">Bike</option>
+                <option value="TRUCK">Truck</option>
+            </select>
+            <button type="submit">Park</button>
+        </form>
+    </div>
+
+    <div id="unparkFormContainer" style="display:none;">
+        <h2>Unpark a Vehicle</h2>
+        <form id="unparkForm">
+            <input type="number" id="ticketId" placeholder="Ticket ID" required>
+            <button type="submit">Unpark</button>
+        </form>
+    </div>
+
+    <div class="toggle-buttons">
+        <button id="showParkFormButton" onclick="showParkForm()" style="display:none">Go to Park</button>
+        <button id="showUnparkFormButton" onclick="showUnparkForm()">Go to Unpark</button>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    &copy; 2025 NuCompany - www.nucompany.com
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

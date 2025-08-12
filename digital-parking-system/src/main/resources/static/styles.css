@@ -1,0 +1,112 @@
+/* styles.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+	background-image: url("./assets/images/background-image.jpg");
+	background-size: cover;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right,#74482A, #A17E61);
+    background-color: #74482A;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    border-radius: 0 0 5px 5px;
+}
+
+.navbar img {
+    height: 40px;
+    filter: brightness(0) invert(1);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links li a:hover {
+    color: rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    background-image: linear-gradient(to right, #A17E61, #74482A);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Page Content */
+.container {
+	color: #74482A;
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, select, button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+	border-style: solid;
+	border-width: 3px;
+	border-color: #A17E61;
+    background-color: #A17E61;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(0,0,0,0);
+    color: black;
+}
+
+.toggle-buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.content{
+	margin: 100px;
+	font-size: large;
+	color: #74482A; 
+}
